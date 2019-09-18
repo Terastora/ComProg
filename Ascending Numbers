@@ -12,11 +12,58 @@ int main ()
 	cout << "Enter Third Number: ";
 	cin >> c;
 	
-	
+	cout << "\nAscending Numbers";
+	cout << "\n__________________________________________________";
 	if (a > b && b > c) {
-		cout << "First "<< a << " Second " << b << " Third " <<c << endl;
+		cout << "\n\nLowest: "<< c << " \nMiddle: " << b << " \nHighest: " <<a << endl;
 	}
-	else if (a > c && c > b)
+		else if (a > c && c > b){
+		cout << "\n\nLowest: "<< b << " \nMiddle: " << c << " \nHighest: " <<a << endl;	
+	}
+		else if (b > a && a > c){
+		cout << "\n\nLowest: "<< c << " \nMiddle: " << a << " \nHighest: " << b << endl;	
+	}
+		else if (c > a && a > b){
+		cout << "\n\nLowest: "<< b << " \nMiddle: " << a << " \nHighest: " << c << endl;
+	}
+		else if (b > c && c > a){
+		cout << "\n\nLowest: "<< a << " \nMiddle: " << c << " \nHighest: " << b << endl;
+	}
+		else if (c > b && b > a){
+		cout << "\n\nLowest: "<< a << " \nMiddle: " << b << " \nHighest: " << c << endl;
+	}
+	
+	else 
+	cout << "Invalid Input";
+	
+	cout << "__________________________________________________\n";
+
+
+	cout << "\n\n\nDescending Numbers";
+	cout << "\n__________________________________________________";
+	if (a > b && b > c) {
+		cout << "\n\nHighest: "<< a << " \nMiddle: " << b << " \nLowest: " <<c << endl;
+	}
+		else if (a > c && c > b){
+		cout << "\n\nHighest: "<< a << " \nMiddle: " << c << " \nLowest: " <<b << endl;	
+	}
+		else if (b > a && a > c){
+		cout << "\n\nHighest: "<< b << " \nMiddle: " << a << " \nLowest: " << c << endl;	
+	}
+		else if (c > a && a > b){
+		cout << "\n\nHighest: "<< c << " \nMiddle: " << a << " \nLowest: " << b << endl;
+	}
+		else if (b > c && c > a){
+		cout << "\n\nHighest: "<< b << " \nMiddle: " << c << " \nLowest: " << a << endl;
+	}
+		else if (c > b && b > a){
+		cout << "\n\nHighest: "<< c << " \nMiddle: " << b << " \nLowest: " << a << endl;
+	}
+	
+	else 
+	cout << "Invalid Input";
+	
+	cout << "__________________________________________________\n";
 
 
 	return 0;
