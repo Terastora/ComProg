@@ -1,0 +1,23 @@
+#include <iostream>
+using namespace std;
+
+int main ()
+{
+	int a,b,c;
+	
+	cout << "Enter First Number: ";
+	cin >> a;
+	cout << "Enter Second Number: ";
+	cin >> b;
+	cout << "Enter Third Number: ";
+	cin >> c;
+	
+	
+	if (a > b && b > c) {
+		cout << "First "<< a << " Second " << b << " Third " <<c << endl;
+	}
+	else if (a > c && c > b)
+
+
+	return 0;
+}
