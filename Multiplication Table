@@ -5,7 +5,6 @@ int main ()
 {
 	int a,b,num,num2; 
 	
-	cout << "Would only output even numbers -2 "<< endl;
 	cout << "Input Number (Vertical) : ";
 	cin >> num;
 	cout << "Input Number (Horizontal) : ";
