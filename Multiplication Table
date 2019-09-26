@@ -1,0 +1,25 @@
+#include <iostream>
+using namespace std;
+
+int main ()
+{
+	int a,b,num,num2; 
+	
+	cout << "Would only output even numbers -2 "<< endl;
+	cout << "Input Number (Vertical) : ";
+	cin >> num;
+	cout << "Input Number (Horizontal) : ";
+	cin >> num2;
+	
+	for (a=0 ; a<=num ; a ++){
+	
+		for (b=0 ; b <= num2;b++){
+		
+			
+	cout << (a+2)*(b+2) << "\t";
+}
+	cout<< endl;
+}
+
+	return 0;
+}
